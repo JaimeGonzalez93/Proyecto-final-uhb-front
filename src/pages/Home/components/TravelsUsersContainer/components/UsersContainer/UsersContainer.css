@@ -1,0 +1,67 @@
+
+
+.user-card {
+    flex: 0 0 auto;
+}
+
+
+.user {
+    display: flex;
+    margin: 0 auto;
+    padding: 0 1rem;
+    max-width: 70%;
+}
+
+.user-card__budget {
+    border: solid 1px;
+    display: inline-flex;
+    list-style: none;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 40px;
+    background-color: #ffcb47;
+}
+
+.user-card__tags {
+    border: solid 1px;
+    display: inline-flex;
+    list-style: none;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 40px;
+    background-color: rgba(148, 134, 134, 0.162);
+}
+
+
+.user-card1 {
+    transition: all 400ms ease;
+}
+
+.user-card1:hover {
+    transform: translateY(-3%);
+}
+
+
+
+.user-card:hover{
+    cursor: pointer;
+    gap: 47px,
+}
+
+.user__container {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+}
+
+
+.user-card__avatar {
+    position: absolute;
+  
+    margin: -83px 0 0 0
+}
+
